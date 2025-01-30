@@ -1,6 +1,9 @@
 const Subheader = () => {
   return (
-    <div className="w-full max-w-[1696px] px-4 h-[68px] flex flex-col justify-center md:border-b mb-12 bg-[#FAFAFA]">
+    <div
+      className="w-full  px-4 h-[68px] flex flex-col justify-center md:border-b mb-12 bg-[background: #F0F0F0;
+] md:bg-[#FAFAFA]"
+    >
       {/* Desktop Layout */}
       <div className="hidden md:flex items-center justify-between">
         <h1 className="text-[40px] font-normal leading-[44px] tracking-[-0.02em] text-[#8977F3]">

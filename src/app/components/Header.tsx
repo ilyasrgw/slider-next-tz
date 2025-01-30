@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="px-4 flex justify-between items-center  w-full h-[60px]  border-b bg-[#FAFAFA]">
+    <header
+      className="px-4 flex justify-between items-center  w-full h-[60px]  border-b background: bg-[#F0F0F0];
+ md:bg-[#FAFAFA]"
+    >
       <div className="flex items-center gap-4">
         <Image
           src="/logo-big.jpg" // Убедись, что путь правильный

@@ -49,7 +49,7 @@ const Slider = ({
         {slides.map((slide, index) => (
           <SwiperSlide
             key={index}
-            className="!w-[412px] !h-[256px] mb-6 bg-[#F0F0F0]"
+            className="!w-[412px] !h-[256px] mb-6 bg-[#F0F0F0] "
           >
             <div
               className="w-[412px] h-[256px] p-6 gap-[60px] border shadow-md 
