@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        ppneuemontreal: ["PP Neue Montreal", "sans-serif"],
+      },
     },
   },
   plugins: [],
