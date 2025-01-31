@@ -64,22 +64,20 @@ const Slider = ({
                     alt={slide.title}
                     className="mb-8"
                   />
-                  {/* Мобильная версия: показываем title */}
+
                   <p className="text-[32px] leading-[36px] font-normal md:hidden">
                     {slide.title}
                   </p>
                 </div>
-                {/* Мобильная версия: показываем описание */}
+
                 <div className="mt-auto text-sm font-normal md:hidden">
                   {slide.description}
                 </div>
 
-                {/* Десктопная версия: показываем только description, затем title */}
-                <div className="mt-auto md:text-[32px] md:leading-[36px] font-normal hidden ">
-                  {slide.description}
-                </div>
-                <div className="mt-auto md:text-[32px] md:leading-[36px] font-normal hidden md:block">
-                  {slide.title}
+                <div className="mt-auto hidden md:block">
+                  <p className="text-[32px] leading-[36px] font-normal">
+                    {slide.title}
+                  </p>
                 </div>
               </div>
             </div>

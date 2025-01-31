@@ -8,7 +8,7 @@ const Header = () => {
     >
       <div className="flex items-center gap-4">
         <Image
-          src="/logo-big.jpg" // Убедись, что путь правильный
+          src="/logo-big.jpg"
           alt="STEMPS Logo"
           width={28}
           height={28}
